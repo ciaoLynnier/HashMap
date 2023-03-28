@@ -11,7 +11,7 @@
   * 存在则在链表中进行equals方法一一比较他们的key
   * key值不重复
 ---
-### 手撕HashMap
+### 具体操作
 1、首先需要一个Map接口，其中定义我们的put()、get()、hashcode()等方法`FakeMap.java`
 
 2、需要一个Entry类，用来用我们传入的键值对生成键值对对象`Entry.java`
