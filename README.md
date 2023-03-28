@@ -1,9 +1,4 @@
-### HashMap基本了解
----
-jdk1.7之前，HashMap底层只是数组和链表，jdk1.8之后，HashMap底层数据结构当链表长度超过8时，会转为红黑树
-HashMap利用空间换时间的思想，将键值对一个个散落在集合中
-hashcode值通过调用hashcode()方法得到，所以有可能存在hashcode值相同的情况，即所谓的哈希冲突
-手撕hashmap的思路：
+### 基本思路
 1、存储put()：
 * Map有一个封装的内部接口Entry<K,V>，用来将key和value封装成键值对对象
 * 键值对对象根据计算的hashcode值进行存储
