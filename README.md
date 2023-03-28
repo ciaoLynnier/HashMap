@@ -17,7 +17,7 @@
 2、需要一个Entry类，用来用我们传入的键值对生成键值对对象
 
 3、需要一个Map的实现类，用来实现Map中的各个方法
-
+https://github.com/ciaoLynnier/HashMap/commit/e8e7dd762f3f210a680b34b492194cdb10851d38
 4、最后写一个测试类，测试我们自己手搓的hashmap
 * 传入三个键值对，其中前两个的key值相同，看看是否会自己更新value值
 
